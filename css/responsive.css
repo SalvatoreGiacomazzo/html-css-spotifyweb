@@ -1,0 +1,30 @@
+/*S layout*/ 
+@media screen and (min-width:768px)
+{
+  aside{width:200px;}  
+
+  main{margin-left:200px;}
+
+
+}
+
+/*M Layout*/
+@media screen and (min-width: 992px)
+{
+footer{position:fixed;}
+}
+
+
+
+
+
+/*LG Layout*/
+@media screen and (min-width:1200px)
+{
+    footer{position:fixed;}
+    main{min-height:100vh;}
+
+    .listened-row{
+        flex-wrap:nowrap;
+    }
+}

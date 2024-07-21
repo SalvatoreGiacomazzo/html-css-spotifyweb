@@ -11,36 +11,56 @@ background-color: rgb(10, 6, 40);}
 
 /*Main*/ 
 main{background-color: rgb(32, 32, 61);
-height:calc(100vh - 160px);
-padding:20px;}
-
-
-
-nav{display:flex;
-flex-direction: row;
-justify-content: space-around;
+width:calc(100vh -50px);
+padding:20px;
+color:white;
+margin-left:49px;
+min-height: 100vh-160px;
 }
 
-nav a{text-decoration: none;
-    color:gainsboro;
-    font-size:x-small;
+
+
+/*Recently listened*/ 
+.recently-played{}
+
+.listened-row{display:flex;
+flex-direction:row;
+gap:1rem;
+width:auto;
+flex-wrap:wrap; 
+justify-content: center;
+align-items: center;
+row-gap:1.5rem;
 }
 
+.listened-col{flex-basis:calc(50% - 20px /2);
+height:45%;}
+
+.listened-card{height:200px;
+    width:200px;
+    border: dashed white;
+   
+}
 
 /*sidebar*/
-aside{height:100vh;
+aside{height:100%;
 width:50px;
 order: 1;
 background-color: black;
-position:absolute;
+position:fixed;
 left:0px;
 bottom:0px;}
 
 /*Footer*/
 
-footer{position:absolute;
+footer{position:sticky;
     width:100%;
     bottom:0px;
 height:80px;
 background-color: rgb(85, 85, 85);
 z-index: 2;}
+
+
+/*Utilities*/ 
+.sub{color:rgb(123, 123, 123);
+font-size: small;}
