@@ -15,7 +15,7 @@ width:calc(100vh -50px);
 padding:20px;
 color:white;
 margin-left:49px;
-min-height: 100vh-160px;
+min-height: 100vh - 160px;
 }
 
 
@@ -36,10 +36,20 @@ row-gap:1.5rem;
 .listened-col{flex-basis:calc(50% - 20px /2);
 height:45%;}
 
-.listened-card{height:200px;
+.listened-card, .card{height:200px;
     width:200px;
     border: dashed white;
    
+}
+
+
+
+/*created for you*/
+.created-row, .popular-row{display:flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+gap:15px;
 }
 
 /*sidebar*/
@@ -62,5 +72,5 @@ z-index: 2;}
 
 
 /*Utilities*/ 
-.sub{color:rgb(123, 123, 123);
+sub{color:rgb(123, 123, 123);
 font-size: small;}
