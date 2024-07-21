@@ -1,0 +1,46 @@
+* {margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: Montserrat, sans-serif;}
+
+
+/*header*/
+header{height:80px;
+background-color: rgb(10, 6, 40);}
+
+
+/*Main*/ 
+main{background-color: rgb(32, 32, 61);
+height:calc(100vh - 160px);
+padding:20px;}
+
+
+
+nav{display:flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+nav a{text-decoration: none;
+    color:gainsboro;
+    font-size:x-small;
+}
+
+
+/*sidebar*/
+aside{height:100vh;
+width:50px;
+order: 1;
+background-color: black;
+position:absolute;
+left:0px;
+bottom:0px;}
+
+/*Footer*/
+
+footer{position:absolute;
+    width:100%;
+    bottom:0px;
+height:80px;
+background-color: rgb(85, 85, 85);
+z-index: 2;}
