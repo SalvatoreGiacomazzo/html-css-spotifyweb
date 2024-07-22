@@ -9,7 +9,8 @@
 /*Md layout*/ 
 @media screen and (min-width:890px)
 {
-
+.listened-row{flex-wrap:nowrap;}
+.recently-played{margin:30px;}
 }
 
 
