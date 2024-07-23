@@ -91,14 +91,16 @@ background-color: rgb(40, 34, 34);
 display: flex;
 color:white;
 font-size:10px;
+flex-basis:100%;
 
 }
     .footer-listening{display:flex;
-     padding:10px;
-     justify-content: space-around ;
+     
+     justify-content: flex-start;
      align-items: center;
      gap:10px;
      font-size: 10px;
+     flex-basis:33%;
    }
 
 .footer-img{
@@ -109,16 +111,29 @@ font-size:10px;
 
 footer i{display:block;}
 
-
-.footer-song{display:flex;
-flex-direction: column;
-}
 .footer-choice{display:flex;
+    justify-content: space-around;
+    font-size:1rem;
+    width:100%;
+    padding-top:10px;
+    
+  
 }
+
 .footer-player{display:flex;
 flex-direction: column;
-gap:5px;}
+gap:10px;
+flex-basis:33%;
+align-items: center;
+justify-content: space-between;
+}
 
+
+.footer-settings{display:flex;
+flex-basis:33%;
+align-items: center;
+gap:5%;
+justify-content: end;}
 
 /*Recently listened*/ 
 .recently-played{margin: 80px, 20px, 30px;}
@@ -173,4 +188,5 @@ color:white;}
 flex-direction: column;
 align-items: center;}
 
+.meter{width:300px;}
 
