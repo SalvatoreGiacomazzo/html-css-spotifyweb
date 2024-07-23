@@ -22,6 +22,22 @@ padding: 15px 40px;
 border-radius: 40px;
 color:white;
 }
+ /*Navbar*/ 
+ nav ul{list-style-type: none;
+display:flex;
+margin:30px;
+justify-content: space-around;}
+
+
+a{text-decoration: none;
+color:rgb(100, 100, 100);
+font-size: 10px;
+}
+
+
+
+
+
 
 /*Homepage*/
 
@@ -133,7 +149,8 @@ justify-content: space-between;
 flex-basis:33%;
 align-items: center;
 gap:5%;
-justify-content: end;}
+justify-content: end;
+flex-basis:33%;}
 
 /*Recently listened*/ 
 .recently-played{margin: 80px, 20px, 30px;}
