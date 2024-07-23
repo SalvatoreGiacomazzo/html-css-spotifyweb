@@ -1,7 +1,12 @@
 /*S layout*/
 @media screen and (min-width:768px)
 {
-  .sidebar{flex-basis:200px;}  
+  .sidebar{flex-basis:200px;
+  align-items: flex-start;}
+  .disappear{display:inline;}  
+  .spotilogo{display:none;}
+  
+
 
  
 } 
@@ -9,8 +14,15 @@
 /*Md layout*/ 
 @media screen and (min-width:890px)
 {
-.listened-row{flex-wrap:nowrap;}
+.listened-row{flex-wrap:nowrap;
+gap: 0;
+row-gap:0;}
+.listened-card{padding:10px;}
+
+
 .recently-played{margin:30px;}
+
+.disappear{display: inline;}
 }
 
 

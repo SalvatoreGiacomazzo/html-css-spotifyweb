@@ -40,7 +40,7 @@ overflow: auto;}
 
 /*sidebar*/
 .sidebar{background-color: black;
-flex-basis:70px;
+flex-basis:45px;
 height:100%;
 flex-shrink: 0;
 flex-grow: 0;
@@ -51,8 +51,25 @@ align-items: center;}
 
 .lower-sidebar{margin-bottom:20px;}
 
-.sidebar-img{height:35px;
+.sidebar img{height:30px;
     margin-top:5px;
+    }
+
+    .middle-sidebar ul{list-style-type:none ;}
+
+    .plus{background-color: white;
+    color:black;
+padding:5px;}
+
+.playlist{display:flex;
+align-items: center;
+margin-bottom:5px;}
+
+ul{color:rgb(130, 130, 130)}
+
+.sidebar-element{display:flex;
+    align-items: flex-end;
+
 }
 
 .user{background-color:gray;
@@ -70,12 +87,41 @@ color:white;}
     
  footer{
  height:80px;
-background-color: rgb(85, 85, 85);
+background-color: rgb(40, 34, 34);
+display: flex;
+color:white;
+font-size:10px;
+
 }
-    
+    .footer-listening{display:flex;
+     padding:10px;
+     justify-content: space-around ;
+     align-items: center;
+     gap:10px;
+     font-size: 10px;
+   }
+
+.footer-img{
+    height:35px;
+    width:35px;
+}
+
+
+footer i{display:block;}
+
+
+.footer-song{display:flex;
+flex-direction: column;
+}
+.footer-choice{display:flex;
+}
+.footer-player{display:flex;
+flex-direction: column;
+gap:5px;}
+
 
 /*Recently listened*/ 
-.recently-played{margin: 80px, 20px, 0px;}
+.recently-played{margin: 80px, 20px, 30px;}
 
 .listened-row{display:flex;
 flex-direction:row;
@@ -99,7 +145,7 @@ flex-direction: column;}
 
 img{max-height: 100%;
 max-width: 100%;
-display:block;}
+}
 
 /*created for you*/
 .created-row, .popular-row{display:flex;
@@ -109,6 +155,9 @@ justify-content: flex-start;
 gap:15px;
 }
 
+.created-for, .popular-artist{margin-top: 50px;
+padding: 10px;}
+
 /*Popular artists*/
 
 .popular img{border-radius:50%;}
@@ -116,4 +165,12 @@ gap:15px;
 sub{color:rgb(123, 123, 123);
 font-size: small;
 line-height: 20px;}
+
+.disappear{display:none;
+color:white;}
+
+.footer-symbols{display: flex;
+flex-direction: column;
+align-items: center;}
+
 
